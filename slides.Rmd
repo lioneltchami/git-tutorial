@@ -1,9 +1,9 @@
 ---
 title: "GitHub Tutorial"
 subtitle: "Introduction to Git and GitHub"  
-author: "Javed Ali"
-role: PhD Student
-company: 'University of Central Florida'
+author: "Lionel Tchami"
+role: DevOps Tutor
+company: 'DevCloud Ninjas Tech Community'
 date: "`r format(Sys.Date(), format='%d %B %Y')`"
 output:
   xaringan::moon_reader:
@@ -71,14 +71,14 @@ background-color: #557571
 ### Introduction to Git and GitHub
 
 <br><br><br><br><br><br>
-.h4[Javed Ali]
+.h4[Lionel Tchami]
 
 
-Graduate Research Assistant & PhD Student
+Platform Engineer  & DevOps Tutor
 
-Dept. of Civil, Environmental & Construction Engineering
+DevCloud Ninjas Tech Community
 
-University of Central Florida, USA
+Calgary, AB Canada
 
 <br><br>
 .h5[(`r format(Sys.Date(), format='%d %B %Y')`)]
@@ -256,8 +256,8 @@ https://tinyurl.com/git-mac
 Enter these lines (with appropriate changes):
 
 ```{bash, eval=FALSE}
-git config --global user.name "Javed Ali"
-git config --global user.email "javedali@knights.ucf.edu"
+git config --global user.name "Lionel Tchami"
+git config --global user.email "lioneltchami@devcloud.ninjas"
 ```
 
 - Make sure that you include here the same email you used for signing up on GitHub.
@@ -468,7 +468,7 @@ git clone URL
 ```
 
 ```bash
-git clone https://github.com/javedali99/git-tutorial.git
+git clone https://github.com/lioneltchami/git-tutorial.git
 ```
 
 .h4[Stage your files]
@@ -607,7 +607,7 @@ Date:   DD-MM-YYYY
     Add file script
 ```
 
-You can also find this on GitHub, by going to [github.com/user-name/repo-name/commits](https://github.com/javedali99/git-tutorial/commits).
+You can also find this on GitHub, by going to [github.com/user-name/repo-name/commits](https://github.com/lioneltchami/git-tutorial/commits).
 
 .h4[You can go back in time to a specific commit, if you know its reference.]
 
@@ -679,11 +679,11 @@ background-color: #557571
 
 ## .white[Links]
 
-.h4[`r fa("book-open", fill = "#d49a89")`<a href="https://javedali99.github.io/git-tutorial/slides.html">.accent[&nbsp; Slides]</a>]<br>
+.h4[`r fa("book-open", fill = "#d49a89")`<a href="https://lioneltchami.github.io/git-tutorial/slides.html">.accent[&nbsp; Slides]</a>]<br>
 
-.h4[.accent[<i class="fa fa-github fa-fw"></i>]<a href="https://github.com/javedali99/git-tutorial">.accent[&nbsp; javedali99/git-tutorial]</a>]<br>
+.h4[.accent[<i class="fa fa-github fa-fw"></i>]<a href="https://github.com/lioneltchami/git-tutorial">.accent[&nbsp; lioneltchami/git-tutorial]</a>]<br>
 
-.h4[.accent[<i class="fa fa-envelope"></i>]<a href="mailto:javedali@knights.ucf.edu">.accent[&nbsp;&nbsp;javedali@knights.ucf.edu]</a>]
+.h4[.accent[<i class="fa fa-envelope"></i>]<a href="mailto:lionel@apotitech.com">.accent[&nbsp;&nbsp;lionel@apotitech.com]</a>]
 
 <br>
 
@@ -700,9 +700,9 @@ class: pink, middle, center
 
 #### Find me at...
 
-[`r fontawesome::fa("github")` @javedali99](https://github.com/javedali99)    
-[`r fontawesome::fa("twitter")` @javedali99](https://twitter.com/javedali99)   
-[`r fontawesome::fa("link")` javedali.net](https://javedali.net)
+[`r fontawesome::fa("github")` @lioneltchami](https://github.com/lioneltchami)    
+[`r fontawesome::fa("twitter")` @lioneltchami](https://twitter.com/lioneltchami)   
+[`r fontawesome::fa("link")` softwaresennin.dev](https://softwaresennin.dev)
 
 
 
@@ -712,17 +712,17 @@ class: pink, middle, center
    meta_description(
      ""
    ) %>%
-   meta_name("github-repo" = "javedali99/git-tutorial") %>%
+   meta_name("github-repo" = "lioneltchami/git-tutorial") %>%
    meta_viewport() %>%
    meta_social(
      title = "",
-     url = "https://javedali.net/",
-     image = "https://www.javedali.net/author/avatar_hufffe226e957f1b2290d587dc7c95d8a4_871284_270x270_fill_lanczos_center_2.PNG",
+     url = "https://softwaresennin.dev/",
+     image = "https://www.softwaresennin.dev/author/avatar_hufffe226e957f1b2290d587dc7c95d8a4_871284_270x270_fill_lanczos_center_2.PNG",
      image_alt = "Vintage valentine",
      og_type = "website",
      og_author = "Javed Ali",
      twitter_card_type = "summary",
-     twitter_creator = "@javedali99"
+     twitter_creator = "@lioneltchami"
    )
    
 ```
